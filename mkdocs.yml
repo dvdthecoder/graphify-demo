@@ -1,0 +1,43 @@
+site_name: Multi-Repo Calling Patterns with graphify
+site_description: What knowledge graphs reveal (and miss) when two repos talk over HTTP
+repo_url: https://github.com/dvdthecoder/graphify-demo
+site_url: https://dvdthecoder.github.io/graphify-demo/
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.footer
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle: {icon: material/brightness-7, name: Dark mode}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle: {icon: material/brightness-4, name: Light mode}
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed: {alternate_style: true}
+  - pymdownx.highlight
+  - tables
+  - toc: {permalink: true}
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+nav:
+  - Home: index.md
+  - 0. Introduction to graphify: graphify-intro.md
+  - 1. Problem statement: problem.md
+  - 2. Building per-repo graphs: building.md
+  - 3. Default vs deep mode: deep-mode.md
+  - 4. Merging repos: merging.md
+  - 5. Questions you can ask: questions.md
+  - 6. Worked queries - API calls: queries.md
+  - 7. Case study - tracing across HTTP: case-study.md
+  - 8. Communities: communities.md
+  - 9. Playbook: playbook.md
+  - 10. Visual walkthrough: walkthrough.md
+  - Appendix: appendix.md

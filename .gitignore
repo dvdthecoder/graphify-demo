@@ -1,0 +1,32 @@
+# build output
+site/
+.cache/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# secrets / local config - never commit
+.env
+.env.*
+*.pem
+*.key
+*.p12
+secrets.*
+credentials*
+
+# data and graph outputs (may contain real code, URLs, paths)
+graphify-out/
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.log
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
