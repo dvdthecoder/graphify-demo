@@ -17,6 +17,7 @@ theme:
       toggle: {icon: material/brightness-4, name: Light mode}
 markdown_extensions:
   - admonition
+  - attr_list
   - pymdownx.details
   - pymdownx.tabbed: {alternate_style: true}
   - pymdownx.highlight
