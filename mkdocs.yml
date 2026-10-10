@@ -40,5 +40,6 @@ nav:
   - 7. Case study - tracing across HTTP: case-study.md
   - 8. Communities: communities.md
   - 9. Playbook: playbook.md
-  - 10. Visual walkthrough: walkthrough.md
+  - 10. Keeping graphs current: keeping-current.md
+  - 11. Visual walkthrough: walkthrough.md
   - Appendix: appendix.md

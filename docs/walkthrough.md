@@ -1,4 +1,4 @@
-# 10. Visual walkthrough
+# 11. Visual walkthrough
 
 A recorded tour of the interactive merged graph: communities first, then the two HTTP traces across the repo boundary.
 

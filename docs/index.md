@@ -20,6 +20,7 @@ We built a [graphify](https://github.com/Graphify-Labs/graphify) graph for each 
 | [Case study](case-study.md) | Tracing "does the app actually use the service?" across an HTTP boundary |
 | [Communities](communities.md) | What clusters are, how to name them, and when they are noise |
 | [Playbook](playbook.md) | A checklist for making multi-repo graphs actually useful |
+| [Keeping graphs current](keeping-current.md) | Versioned pre-commit hook so every commit carries its own graph, assistant hooks, refreshing the merged graph |
 | [Visual walkthrough](walkthrough.md) | Animated tour of communities and HTTP traces in the interactive graph |
 
 ## The five findings in one screen
